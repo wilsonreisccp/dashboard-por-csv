@@ -1,0 +1,26 @@
+{
+  "name": "dashboard-vercel",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint . --ext .ts,.tsx"
+  },
+  "dependencies": {
+    "next": "^16.1.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "papaparse": "5.4.1",
+    "chart.js": "4.4.0",
+    "react-chartjs-2": "5.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.4.2",
+    "@types/react": "18.2.28",
+    "@types/react-dom": "18.2.8",
+    "typescript": "5.2.2",
+    "eslint": "8.46.0"
+  }
+}
